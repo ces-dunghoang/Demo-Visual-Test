@@ -1,0 +1,411 @@
+{
+  "config": {
+    "configFile": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/playwright.config.ts",
+    "rootDir": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/node_modules/allure-playwright/dist/index.js",
+        null
+      ],
+      [
+        "blob",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": {
+      "current": 4,
+      "total": 4
+    },
+    "updateSnapshots": "missing",
+    "version": "1.40.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "warehouse.spec.ts",
+      "file": "warehouse.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigating to Launge of Warehouse website - 2",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "timedOut",
+                  "duration": 29999,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehouse.spec.ts",
+                        "column": 54,
+                        "line": 37
+                      },
+                      "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehouse.spec.ts:37:54)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-11-20T13:39:19.384Z",
+                  "attachments": []
+                },
+                {
+                  "workerIndex": 4,
+                  "status": "timedOut",
+                  "duration": 29999,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehouse.spec.ts",
+                        "column": 54,
+                        "line": 37
+                      },
+                      "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehouse.spec.ts:37:54)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 1,
+                  "startTime": "2023-11-20T13:39:51.485Z",
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/test-results/warehouse-Navigating-to-Launge-of-Warehouse-website---2-webkit-retry1/trace.zip"
+                    }
+                  ]
+                },
+                {
+                  "workerIndex": 6,
+                  "status": "timedOut",
+                  "duration": 29999,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehouse.spec.ts",
+                        "column": 54,
+                        "line": 37
+                      },
+                      "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehouse.spec.ts:37:54)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 2,
+                  "startTime": "2023-11-20T13:40:24.136Z",
+                  "attachments": []
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "a645baeaf505bbc52b23-ac47d81113b3de0002f6",
+          "file": "warehouse.spec.ts",
+          "line": 34,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "warehousebdd.spec.ts",
+      "file": "warehousebdd.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Test Navigation of Warehouse website",
+          "file": "warehousebdd.spec.ts",
+          "line": 10,
+          "column": 15,
+          "specs": [
+            {
+              "title": "To Navigate to lounge page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "skip",
+                      "description": "The firefox browser does not support the feature"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "skipped",
+                      "duration": 2181,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-11-20T13:39:19.425Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "9d0168471b437e6a60cd-903090deb257feba1441",
+              "file": "warehousebdd.spec.ts",
+              "line": 12,
+              "column": 9
+            },
+            {
+              "title": "To Navigate to Car Electronics page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "timedOut",
+                      "duration": 30001,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts",
+                            "column": 62,
+                            "line": 40
+                          },
+                          "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:40:62)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/common/testType.js:199:20)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright-core/lib/utils/zones.js:75:33)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:38:20)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Hovering over category root",
+                          "duration": 28096,
+                          "error": {
+                            "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n",
+                            "stack": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:40:62)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/common/testType.js:199:20)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright-core/lib/utils/zones.js:75:33)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:38:20)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)",
+                            "location": {
+                              "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts",
+                              "column": 62,
+                              "line": 40
+                            }
+                          }
+                        }
+                      ],
+                      "startTime": "2023-11-20T13:39:19.401Z",
+                      "attachments": []
+                    },
+                    {
+                      "workerIndex": 3,
+                      "status": "timedOut",
+                      "duration": 29999,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts",
+                            "column": 62,
+                            "line": 40
+                          },
+                          "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:40:62)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/common/testType.js:199:20)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright-core/lib/utils/zones.js:75:33)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:38:20)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 1,
+                      "steps": [
+                        {
+                          "title": "Hovering over category root",
+                          "duration": 27191,
+                          "error": {
+                            "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n",
+                            "stack": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:40:62)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/common/testType.js:199:20)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright-core/lib/utils/zones.js:75:33)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:38:20)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)",
+                            "location": {
+                              "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts",
+                              "column": 62,
+                              "line": 40
+                            }
+                          }
+                        }
+                      ],
+                      "startTime": "2023-11-20T13:39:51.441Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/test-results/warehousebdd-Test-Navigation-of-Warehouse-website-To-Navigate-to-Car-Electronics-page-webkit-retry1/trace.zip"
+                        }
+                      ]
+                    },
+                    {
+                      "workerIndex": 5,
+                      "status": "timedOut",
+                      "duration": 30002,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts",
+                            "column": 62,
+                            "line": 40
+                          },
+                          "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:40:62)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/common/testType.js:199:20)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright-core/lib/utils/zones.js:75:33)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:38:20)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\u001b[22m\n\u001b[2m    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 2,
+                      "steps": [
+                        {
+                          "title": "Hovering over category root",
+                          "duration": 28410,
+                          "error": {
+                            "message": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n",
+                            "stack": "Error: locator.hover: Test timeout of 30000ms exceeded.\nCall log:\n  \u001b[2m- waiting for locator('data-test-id=category-root')\u001b[22m\n\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:40:62)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/common/testType.js:199:20)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright-core/lib/utils/zones.js:75:33)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts:38:20)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:345:15)\n    at /home/ces-user/Documents/kaito/PlaywrightCICD2023 (/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/node_modules/playwright/lib/worker/workerMain.js:341:36)",
+                            "location": {
+                              "file": "/home/ces-user/Documents/kaito/PlaywrightCICD2023 (1)/PlaywrightCICD2023/1)/PlaywrightCICD2023/tests/warehousebdd.spec.ts",
+                              "column": 62,
+                              "line": 40
+                            }
+                          }
+                        }
+                      ],
+                      "startTime": "2023-11-20T13:40:24.068Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "9d0168471b437e6a60cd-783997f57dd369c30868",
+              "file": "warehousebdd.spec.ts",
+              "line": 34,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2023-11-20T13:39:18.911Z",
+    "duration": 96757.246,
+    "expected": 0,
+    "skipped": 1,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}
