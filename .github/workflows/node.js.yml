@@ -13,7 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix: shard:[1/4,2/4,3/4,4/4]
+      matrix:
+        shard: [1/4, 2/4, 3/4, 4/4]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
